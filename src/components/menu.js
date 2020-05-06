@@ -2,7 +2,7 @@ import React from "react";
 import "../style/dropdown.css";
 function menu(props) {
   return (
-    <div className="border-b py-2">
+    <div className="border-b py-2 mx-40">
       <nav class="flex items-center justify-between flex-wrap mx-20">
         <div class="flex items-center flex-no-shrink text-white mr-6">
           <button>
@@ -26,8 +26,8 @@ function menu(props) {
           </button>
         </div>
         <div className="ml-5">
-          <button class="hidden lg:block text-base mr-4 text-white">
-            <ul className="group hover:text-teal-500 mt-1">
+          <button class="hidden lg:block text-base mr-4 text-white ">
+            <ul className="group hover:text-teal-500 mt-1 ">
               Features
               <div className="absolute flex text-white">
                 <li className="hidden group-hover hover:text-teal-500 m-5">

@@ -1,10 +1,11 @@
 .group:hover .group-hover {
     display: block;
 }
-.dropdown-transition {
-    -webkit-transition: height 0.3s ease-in;
-    -moz-transition: height 0.3s ease-in;
-    -o-transition: height 0.3s ease-in;
-    -ms-transition: height 0.3s ease-in;
-    transition: height 0.3s ease-in;
+.dropdown {
+    transition: all 1s;
+    max-height: 0;
+}
+
+.group:hover .dropdown {
+    max-height: 200px;
 }

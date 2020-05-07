@@ -1,8 +1,8 @@
 import React from "react";
-
+import "../style/animations.css";
 function comp1(props) {
   return (
-    <div>
+    <div className=" component-transition">
       <div className="text-white text-center mt-24 mx-40">
         <p className="text-4xl">Web Development Made Faster</p>
         <p>An instant IDE and prototyping tool for rapid web development.</p>
@@ -34,7 +34,7 @@ function comp1(props) {
           </button>
         </div>
       </div>
-      <div className="text-center text-white justify-center">
+      <div className="text-center text-white component-transition2">
         <button className="bg-indigo-600 transition-all duration-300 transform hover:scale-110 p-2 rounded">
           Create a Sandbox, it's free
         </button>
@@ -44,6 +44,7 @@ function comp1(props) {
         <img
           className="px-64"
           src="https://codesandbox.io/static/hero-ide-home-b3284345f1e7b0e7156268cbacec70de.png"
+          alt="pic"
         ></img>
       </div>
     </div>

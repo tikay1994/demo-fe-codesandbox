@@ -2,7 +2,7 @@ import React from "react";
 
 function comp2(props) {
   return (
-    <div className="text-white mx-40 my-20">
+    <div className="text-white mx-40 my-20 component-transition">
       <div>
         <div>
           <h1 className="text-4xl">Prototype Quickly</h1>
@@ -14,6 +14,7 @@ function comp2(props) {
           <img
             className=""
             src="https://codesandbox.io/static/started-3a3d363a1d955a0aa4ea6e7ccc908a8a.png"
+            alt="pic"
           ></img>
         </div>
         <div>

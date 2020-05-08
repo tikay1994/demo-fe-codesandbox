@@ -19,17 +19,17 @@ function comp4(props) {
           <div className="flex">
             <img
               src={icon1}
-              className="w-32 h-32 lg:w-64 lg:h-64 m-5 ml-0 lg:transform lg:-translate-y-10"
+              className="w-24 h-24 sm:w-32 sm:h-32 lg:w-64 lg:h-64 m-5 ml-0 lg:transform lg:-translate-y-10"
               alt="pic"
             ></img>
             <img
               src={icon2}
-              className="w-32 h-32 lg:w-64 lg:h-64 m-5 ml-0 lg:transform lg:-translate-y-10"
+              className="w-24 h-24 sm:w-32 sm:h-32 lg:w-64 lg:h-64 m-5 ml-0 lg:transform lg:-translate-y-10"
               alt="pic"
             ></img>
             <img
               src={icon3}
-              className="w-32 h-32 lg:w-64 lg:h-64 m-5 ml-0 lg:transform lg:-translate-y-10"
+              className="w-24 h-24 sm:w-32 sm:h-32 lg:w-64 lg:h-64 m-5 ml-0 lg:transform lg:-translate-y-10"
               alt="pic"
             ></img>
           </div>

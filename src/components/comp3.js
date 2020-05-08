@@ -24,11 +24,6 @@ function comp3(props) {
             src="https://codesandbox.io/static/2-f85edd5263e80fba8b193a48c53e2a2c.png"
             alt="pic"
           ></img>
-          <img
-            className="h-64 w-48 lg:h-full lg:w-full"
-            src="https://codesandbox.io/static/7-1176c2cecca6f46b34bd06cceaf62191.png"
-            alt="pic"
-          ></img>
         </div>
       </div>
     </div>

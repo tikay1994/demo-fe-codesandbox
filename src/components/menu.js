@@ -53,12 +53,15 @@ function Menu(props) {
           </div>
           <div className="hidden md:flex">
             <div
-              className="ml-5 group text-white hover:opacity-100 opacity-50"
+              className="ml-4 group text-white hover:opacity-100 opacity-50"
               onMouseEnter={handleMenuShow}
               onMouseLeave={handleCancleTopMenu}
             >
-              <button class="text-xs mr-4 text-white h-10  mx-5">
+              <button class="flex text-xs mr-4 text-white h-10 mx-5">
                 <div>Features</div>
+                <svg class="h-3 w-3 mt-1" fill="#fff" viewBox="0 0 24 24">
+                  <path d="M6.984 9.984h10.031l-5.016 5.016z"></path>
+                </svg>
               </button>
               <div className="group-hover hidden">
                 <div className="absolute flex">
@@ -117,12 +120,15 @@ function Menu(props) {
               </div>
             </div>
             <div
-              className="ml-5 group text-white hover:opacity-100 opacity-50"
+              className="ml-4 group text-white hover:opacity-100 opacity-50"
               onMouseEnter={handleMenuShow}
               onMouseLeave={handleCancleTopMenu}
             >
-              <button class="text-xs mr-4 text-white h-10 mx-5">
+              <button class="flex text-xs mr-4 text-white h-10 mx-5">
                 <div>Explore</div>
+                <svg class="h-3 w-3 mt-1" fill="#fff" viewBox="0 0 24 24">
+                  <path d="M6.984 9.984h10.031l-5.016 5.016z"></path>
+                </svg>
               </button>
               <div className="group-hover hidden">
                 <div className=" absolute flex">
@@ -150,12 +156,15 @@ function Menu(props) {
               </div>
             </div>
             <div
-              className="ml-5 group text-white hover:opacity-100 opacity-50"
+              className="ml-4 group text-white hover:opacity-100 opacity-50"
               onMouseEnter={handleMenuShow}
               onMouseLeave={handleCancleTopMenu}
             >
-              <button class="text-xs mr-4 text-white h-10 mx-5">
+              <button class="flex text-xs mr-4 text-white h-10 mx-5">
                 <div>Resources</div>
+                <svg class="h-3 w-3 mt-1" fill="#fff" viewBox="0 0 24 24">
+                  <path d="M6.984 9.984h10.031l-5.016 5.016z"></path>
+                </svg>
               </button>
               <div className="group-hover hidden">
                 <div className=" absolute flex">
@@ -183,12 +192,15 @@ function Menu(props) {
               </div>
             </div>
             <div
-              className="ml-5 group text-white hover:opacity-100 opacity-50"
+              className="ml-4 group text-white hover:opacity-100 opacity-50"
               onMouseEnter={handleMenuShow}
               onMouseLeave={handleCancleTopMenu}
             >
-              <button class="text-xs mr-4 text-white h-10 mx-5">
+              <button class="flex text-xs mr-4 text-white h-10 mx-5">
                 <div>Support</div>
+                <svg class="h-3 w-3 mt-1" fill="#fff" viewBox="0 0 24 24">
+                  <path d="M6.984 9.984h10.031l-5.016 5.016z"></path>
+                </svg>
               </button>
               <div className="group-hover hidden">
                 <div className=" absolute flex">
@@ -216,7 +228,7 @@ function Menu(props) {
               </div>
             </div>
             <div>
-              <button class="text-xs mr-4 text-white h-10 hover:opacity-100 opacity-50 mx-5">
+              <button class="text-xs mr-2 text-white h-10 hover:opacity-100 opacity-50 mx-5">
                 <div>Pricing</div>
               </button>
             </div>

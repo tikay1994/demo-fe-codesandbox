@@ -1,20 +1,30 @@
 import React from "react";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 import Menu from "./components/menu";
-import Comp1 from "./components/comp1";
-import Comp2 from "./components/comp2";
-import Comp3 from "./components/comp3";
-import Comp4 from "./components/comp4";
+import Home from "./components/home";
 import Footer from "./components/footer";
+import Login from "./components/login";
+import Product from "./components/product";
 function App() {
   return (
-    <div className="App bg-black text white">
-      <Menu />
-      <Comp1 />
-      <Comp2 />
-      <Comp3 />
-      <Comp4 />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App bg-black text white">
+        <Menu />
+        <Switch>
+          <Route path="/" exact>
+            <Home />
+          </Route>
+          <Route path="/login" exact>
+            <Login />
+          </Route>
+          <Route path="/product" exact>
+            <Product />
+          </Route>
+        </Switch>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

@@ -3,7 +3,7 @@ import React from "react";
 function comp3(props) {
   return (
     <div className="text-white mx-5 lg:mx-24 mt-64">
-      <div className=" component-transition">
+      <div className="component-transition">
         <h1 className="text-4xl">
           Create Static Sites, Full-stack Web Apps, or Components
         </h1>

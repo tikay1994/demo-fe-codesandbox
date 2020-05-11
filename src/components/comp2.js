@@ -9,7 +9,7 @@ function comp2(props) {
           <p className="text-sm">Test your ideas early and often.</p>
         </div>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3">
+      <div className="grid grid-cols-1 lg:grid-cols-3 mt-3">
         <div className="hidden lg:block bg-gray-800 bg-opacity-25 col-start-1 col-end-3 mr-10">
           <img
             className=""
@@ -26,16 +26,24 @@ function comp2(props) {
           <h3 className="text-xl">VS Code built-in</h3>
           <p className="text-sm">The editor is full-featured, yet familiar.</p>
         </div>
-        <div className="text-center md:text-left md:bg-gray-800 h-64 px-12 py-10 lg:transform lg:-translate-y-24 lg:translate-x-64 rounded">
+        <div className="text-center md:text-left md:bg-gray-800 h-48 px-12 py-10 lg:transform lg:-translate-y-24 lg:translate-x-64 rounded">
           <button>
             <div>
-              <h2>"It fell much more like my local environment"</h2>
+              <h2 className="my-5">
+                "It fell much more like my local environment"
+              </h2>
             </div>
-            <div className="flex">
-              <div>img avatar</div>
+            <div className="flex justify-center">
+              <div>
+                <img
+                  className="h-10 w-10 rounded-full m-1"
+                  src="https://thuthuatnhanh.com/wp-content/uploads/2019/10/anh-avatar-soai-ca-superman.jpg"
+                  atl="avatar"
+                />
+              </div>
               <div>
                 <p>Name</p>
-                <p>Address</p>
+                <p>Job</p>
               </div>
             </div>
           </button>
